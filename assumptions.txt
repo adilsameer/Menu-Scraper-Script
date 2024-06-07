@@ -1,0 +1,7 @@
+Assumption 1:
+Using zomato Restaurant link like https://www.zomato.com/mumbai/zam-zam-cateres-family-restaurant-kurla
+Reason: Need to extract menu image from Zomato website
+
+Assumption 2:
+Using simple format of Menu
+Reason: OCR is simple text extractor if we change menu pattern then we need to modify OCR post formating of extracted text before adding to Database
