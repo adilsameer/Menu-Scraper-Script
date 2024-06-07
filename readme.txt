@@ -21,17 +21,15 @@ Installation
 
 Usage
 
-1. Open the `menu_scraper.py` file in a text editor.
-
-2. Set the `restaurant_id` variable to the ID of the restaurant whose menu you want to scrape. You can find the ID in the URL of the restaurant's Zomato page.
-
-3. Run the script by executing the following command in your terminal:
+1. Run the script by executing the following command in your terminal:
 
     python menu_scraper.py
 
-4. The script will fetch the menu images from the Zomato page, perform OCR (Optical Character Recognition) to extract text from the images, parse the menu items, and store them in a SQLite database named `menus.db`.
+2. Give/Paste Zomato Restaurant URL like: https://www.zomato.com/mumbai/zam-zam-cateres-family-restaurant-kurla
 
-5. After running the script, you can check the `menus.db` file to view the stored menu items.
+3. The script will fetch the menu images from the Zomato page, perform OCR (Optical Character Recognition) to extract text from the images, parse the menu items, and store them in a SQLite database named `menus.db`.
+
+4. After running the script, you can check the `menus.db` file to view the stored menu items.
 
 Notes
 
